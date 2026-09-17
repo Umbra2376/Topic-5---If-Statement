@@ -41,21 +41,21 @@ namespace Topic_5___If_Statements
             Console.WriteLine("Hey how long have you parked in the parking garage for in minutes.");
             minParked = Convert.ToInt32(Console.ReadLine());
             if (minParked <= 60)
-                Console.WriteLine("You will have to pay $4.00.");
+                Console.WriteLine("You will be charged for 1 hour and have to pay $4.00.");
             else if (minParked <= 120)
-                Console.WriteLine("You will have to pay $6.00.");
+                Console.WriteLine("You will be charged for 2 hours and have to pay $6.00.");
             else if (minParked <= 180)
-                Console.WriteLine("You will have to pay $8.00.");
+                Console.WriteLine("You will be charged for 3 hours and have to pay $8.00.");
             else if (minParked <= 240)
-                Console.WriteLine("You will have to pay $10.00.");
+                Console.WriteLine("You will be charged for 4 hours and have to pay $10.00.");
             else if (minParked <= 300)
-                Console.WriteLine("You will have to pay $12.00.");
+                Console.WriteLine("You will be charged for 5 hours and have to pay $12.00.");
             else if (minParked <= 360)
-                Console.WriteLine("You will have to pay $14.00.");
+                Console.WriteLine("You will be charged for 6 hours and have to pay $14.00.");
             else if (minParked <= 420)
-                Console.WriteLine("You will have to pay $16.00.");
+                Console.WriteLine("You will be charged for 7 hours and have to pay $16.00.");
             else if (minParked <= 480)
-                Console.WriteLine("You will have to pay $18.00.");
+                Console.WriteLine("You will be charged for 8 hours and have to pay $18.00.");
             else
                 Console.WriteLine("You have reached our max charge of $20.00 for the day.");
         }
